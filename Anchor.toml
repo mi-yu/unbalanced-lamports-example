@@ -1,0 +1,12 @@
+[programs.localnet]
+unbalanced_transfer_poc = "HV1tYVquon8bA4ZSbVLF361qrQ1vcnev2yhnbHyCPQWJ"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/michaelyu/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
